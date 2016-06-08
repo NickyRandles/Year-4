@@ -1,0 +1,44 @@
+package com.adverts.services;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import com.adverts.database.Database;
+import com.adverts.models.Advert;
+
+public class AdvertService {
+
+	private Map<Integer, Advert> adverts = Database.getAdverts();
+	
+	public AdvertService(){
+		adverts.put(1, new Advert(1, "Hello World!", "gdfzfzsdaa", "Nicky"));
+		adverts.put(2, new Advert(2, "Hello Java!", "gdsffdgfsdaf", "Nicky"));
+	}
+	
+	public List<Advert> getAdverts(){
+		return new ArrayList<Advert>(adverts.values());
+	}
+	
+	public Advert getAdvert(int id){
+		return adverts.get(id);
+	}
+	
+	public Advert addAdvert(Advert advert){
+		advert.setId(adverts.size() + 1);
+		adverts.put(advert.getId(), advert);
+		return advert;
+	}
+	
+	public Advert updateAdvert(Advert advert){
+		if(advert.getId() <= 0){
+			return null;
+		}
+		adverts.put(advert.getId(), advert);
+		return advert;
+	}
+	
+	public Advert removeAdvert(int id){
+		return adverts.remove(id);
+	}
+}

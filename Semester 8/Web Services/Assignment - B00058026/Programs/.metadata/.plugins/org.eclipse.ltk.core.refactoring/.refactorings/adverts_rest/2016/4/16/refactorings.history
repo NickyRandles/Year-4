@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 packages to &apos;adverts_soap/src&apos;&#x0D;&#x0A;- Original project: &apos;adverts_rest&apos;&#x0D;&#x0A;- Destination element: &apos;adverts_soap/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     adverts_rest/src/main/java/com.adverts.database&#x0D;&#x0A;     adverts_rest/src/main/java/com.adverts.resources&#x0D;&#x0A;     adverts_rest/src/main/java/com.adverts.models&#x0D;&#x0A;     adverts_rest/src/main/java/com.adverts.services" description="Copy packages" destination="=adverts_soap/src" element1="/src\/main\/java&lt;com.adverts.database" element2="/src\/main\/java&lt;com.adverts.resources" element3="/src\/main\/java&lt;com.adverts.models" element4="/src\/main\/java&lt;com.adverts.services" flags="589830" fragments="4" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1461046900032" version="1.0"/>
+</session>

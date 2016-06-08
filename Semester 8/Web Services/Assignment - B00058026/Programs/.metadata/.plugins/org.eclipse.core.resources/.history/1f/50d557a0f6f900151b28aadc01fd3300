@@ -1,0 +1,10 @@
+package com.adverts.resources;
+
+@Path("/messages")
+public class MessageResource {
+
+	
+	public String getMessages(){
+		return "Hello World";
+	}
+}

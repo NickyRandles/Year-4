@@ -1,0 +1,5 @@
+package com.adverts.resources;
+
+public class MessageResource {
+
+}

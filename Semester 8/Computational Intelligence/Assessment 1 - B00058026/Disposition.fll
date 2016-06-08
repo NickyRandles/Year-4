@@ -1,0 +1,64 @@
+Engine: 
+InputVariable: age
+  enabled: true
+  range: 20.000 60.000
+  term: young Trapezoid 20.000 20.000 30.000 40.000
+  term: middle Triangle 30.000 40.000 50.000
+  term: old Trapezoid 40.000 50.000 60.000 60.000
+InputVariable: health
+  enabled: true
+  range: 0.000 10.000
+  term: bad Trapezoid 0.000 0.000 2.500 5.000
+  term: good Triangle 2.500 5.000 7.500
+  term: great Trapezoid 5.000 7.500 10.000 10.000
+InputVariable: income
+  enabled: true
+  range: 0.000 60.000
+  term: lower Trapezoid 0.000 0.000 15.000 30.000
+  term: middle Triangle 15.000 30.000 45.000
+  term: upper Trapezoid 30.000 45.000 60.000 60.000
+OutputVariable: happiness
+  enabled: true
+  range: 0.000 1.000
+  accumulation: Maximum
+  defuzzifier: Centroid 200
+  default: nan
+  lock-valid: false
+  lock-range: false
+  term: miserable Triangle 0.000 0.166 0.333
+  term: sad Triangle 0.166 0.333 0.499
+  term: average Triangle 0.333 0.499 0.664
+  term: happy Triangle 0.499 0.664 0.832
+  term: ecstatic Triangle 0.664 0.832 1.000
+RuleBlock: 
+  enabled: true
+  conjunction: Minimum
+  disjunction: Maximum
+  activation: Minimum
+  rule: if age is young and health is bad and income is lower then happiness is sad
+  rule: if age is young and health is bad and income is middle then happiness is average
+  rule: if age is young and health is bad and income is upper then happiness is average
+  rule: if age is young and health is good and income is lower then happiness is average
+  rule: if age is young and health is good and income is middle then happiness is happy
+  rule: if age is young and health is good and income is upper then happiness is happy
+  rule: if age is young and health is great and income is lower then happiness is average
+  rule: if age is young and health is great and income is middle then happiness is happy
+  rule: if age is young and health is great and income is upper then happiness is ecstatic
+  rule: if age is middle and health is bad and income is lower then happiness is sad
+  rule: if age is middle and health is bad and income is middle then happiness is average
+  rule: if age is middle and health is bad and income is upper then happiness is average
+  rule: if age is middle and health is good and income is lower then happiness is average
+  rule: if age is middle and health is good and income is middle then happiness is happy
+  rule: if age is middle and health is good and income is upper then happiness is ecstatic
+  rule: if age is middle and health is great and income is lower then happiness is average
+  rule: if age is middle and health is great and income is middle then happiness is happy
+  rule: if age is middle and health is great and income is upper then happiness is ecstatic
+  rule: if age is old and health is bad and income is lower then happiness is miserable
+  rule: if age is old and health is bad and income is middle then happiness is sad
+  rule: if age is old and health is bad and income is upper then happiness is sad
+  rule: if age is old and health is good and income is lower then happiness is sad
+  rule: if age is old and health is good and income is middle then happiness is average
+  rule: if age is old and health is good and income is upper then happiness is happy
+  rule: if age is old and health is great and income is lower then happiness is average
+  rule: if age is old and health is great and income is middle then happiness is happy
+  rule: if age is old and health is great and income is upper then happiness is ecstatic

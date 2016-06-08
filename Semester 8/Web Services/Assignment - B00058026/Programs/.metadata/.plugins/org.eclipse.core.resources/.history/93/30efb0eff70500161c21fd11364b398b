@@ -1,0 +1,34 @@
+package com.adverts.resources;
+
+import java.util.List;
+
+import com.adverts.models.Profile;
+import com.adverts.services.ProfileService;
+
+@WebService
+public class ProfileResource {
+
+	private ProfileService profileService = new ProfileService();
+	
+	public List<Profile> getProfiles(){
+		return profileService.getAllProfiles();
+	}
+	
+	public Profile getProfile(String username){
+		return profileService.getProfile(username);
+	}
+	
+	public Profile addProfile(Profile profile){
+		System.out.print(profile);
+		return profileService.addProfile(profile);
+	}
+	
+	public Profile updateProfile(String username, Profile profile){
+		profile.setUsername(username);
+		return profileService.updateprofile(profile);
+	}
+	
+	public void removeProfile(String username){
+		profileService.removeprofile(username);
+	}
+}

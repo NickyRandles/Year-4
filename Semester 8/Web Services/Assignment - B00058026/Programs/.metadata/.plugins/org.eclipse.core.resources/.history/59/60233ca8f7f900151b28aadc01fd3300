@@ -1,0 +1,15 @@
+package com.adverts.resources;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+
+@Path("/messages")
+public class MessageResource {
+
+	@GET //http method
+	@Produces(MediaType.) //specify return type
+	public String getMessages(){
+		return "Hello World";
+	}
+}

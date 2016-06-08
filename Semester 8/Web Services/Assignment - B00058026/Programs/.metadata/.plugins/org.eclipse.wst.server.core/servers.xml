@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v7.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v7.0 Server at localhost" name="Tomcat v7.0 Server at localhost" runtime-id="Apache Tomcat v7.0" server-type="org.eclipse.jst.server.tomcat.70" server-type-id="org.eclipse.jst.server.tomcat.70" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="11">
+    <list key="modules" value0="adverts_rest::org.eclipse.jst.jee.server:adverts_rest::jst.web::2.5"/>
+  </server>
+  <server auto-publish-setting="1" auto-publish-time="0" hostname="localhost" id="GlassFish 4.0 at localhost" name="GlassFish 4.0 at localhost" runtime-id="GlassFish 4.0" server-type="org.glassfish.jst.server.glassfish4" server-type-id="org.glassfish.jst.server.glassfish4" start-timeout="240" stop-timeout="240" timestamp="5">
+    <map key="generic_server_instance_properties" sunappserver.adminname="admin" sunappserver.adminpassword="" sunappserver.adminserverportnumber="4848" sunappserver.domainpath="C:\Users\nicky\Desktop\College\College\Year 4\Semester 2\Web Services\BN402XMLWebServices\EclipseGlassfish\GlassFish\glassfish4\glassfish\domains\domain1" sunappserver.keepSessions="true" sunappserver.serveraddress="localhost" sunappserver.serverportnumber="8080"/>
+    <list key="modules" value0="adverts_rest::org.eclipse.jst.jee.server:adverts_rest::jst.web::2.5" value1="adverts_soap::org.eclipse.jst.jee.server:adverts_soap::jst.web::3.1"/>
+    <list key="Generic_Server_Modules_List" value0="org.eclipse.jst.jee.server:adverts_rest" value1="org.eclipse.jst.jee.server:adverts_soap"/>
+  </server>
+</servers>

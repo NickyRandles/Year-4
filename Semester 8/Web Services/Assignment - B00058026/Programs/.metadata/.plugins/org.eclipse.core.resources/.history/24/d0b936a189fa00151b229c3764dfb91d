@@ -1,0 +1,24 @@
+package com.adverts.resources;
+
+import java.util.List;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+import com.adverts.model.Message;
+import com.adverts.service.MessageService;
+
+@Path("/messages")
+public class MessageResource {
+
+	MessageService messageService = new MessageService();
+	
+	@GET //http method
+	@Produces(MediaType.APPLICATION_XML) //specify return type
+	public List<Message> getMessages(){
+		return messageService.getAllMessages();
+
+	}
+}

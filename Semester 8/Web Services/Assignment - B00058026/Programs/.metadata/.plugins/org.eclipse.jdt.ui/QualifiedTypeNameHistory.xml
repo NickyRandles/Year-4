@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="com.adverts.database.Database"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.MediaType"/>
+<fullyQualifiedTypeName name="javax.ws.rs.Path"/>
+<fullyQualifiedTypeName name="javax.ws.rs.Produces"/>
+<fullyQualifiedTypeName name="javax.ws.rs.Consumes"/>
+<fullyQualifiedTypeName name="javax.ws.rs.PathParam"/>
+<fullyQualifiedTypeName name="javax.ws.rs.GET"/>
+<fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlTransient"/>
+<fullyQualifiedTypeName name="com.adverts.services.ProfileService"/>
+<fullyQualifiedTypeName name="com.adverts.models.Profile"/>
+<fullyQualifiedTypeName name="com.adverts.services.CommentService"/>
+<fullyQualifiedTypeName name="com.adverts.models.Comment"/>
+<fullyQualifiedTypeName name="com.adverts.services.AdvertService"/>
+<fullyQualifiedTypeName name="com.adverts.models.Advert"/>
+<fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlRootElement"/>
+<fullyQualifiedTypeName name="javax.jws.WebService"/>
+<fullyQualifiedTypeName name="org.glassfish.jersey.client.ClientConfig"/>
+</qualifiedTypeNameHistroy>

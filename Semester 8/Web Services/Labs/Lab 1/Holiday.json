@@ -1,0 +1,18 @@
+{"insurance": 
+	{
+		"company": "123.ie",
+		"person": {
+			"name": "Nicky Randles",
+			"address": "124 The old mill",
+			"dateOfBirth": "1995-1-27",
+			"sex": "Male",
+			"phone": "087123456",
+			"nextOfKin": "Nicholas Randles"	
+		},
+		"holiday": {
+			"type": "Nicholas Randles",
+			"date": "2016-3-1",
+			"duration": "1 week"
+		}	
+	}
+}

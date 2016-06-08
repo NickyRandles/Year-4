@@ -1,0 +1,25 @@
+function post(){
+	var json = $("#form").serializeArray();
+	var JSONObject= {"name":"nicky", "description":"how are you"};
+	var jsonData = JSON.parse( JSONObject ); 
+	console.log(json);
+	var path = 'http://localhost:8080/adverts_rest/webapi/adverts';
+	$.ajax({
+		type: 'POST',
+		url: path,
+		dataType: 'json',
+		data: {
+	           "name":"hello",
+	           "description":"what"
+	         },
+		success: function(data){
+			$.each(data, function(index, item){
+				$.each(item, function(key, value){
+					$('#content').append('<div id="searchResult">');
+					$('#content').append(key + ': ' + value);			
+					$('#content').append('</div>');	
+				});			
+			});
+		}
+	});
+}

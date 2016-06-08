@@ -1,0 +1,47 @@
+package com.adverts.resources;
+
+import java.util.List;
+
+
+
+
+import javax.jws.WebService;
+
+import com.adverts.models.Advert;
+import com.adverts.services.AdvertService;
+
+
+@WebService
+public class AdvertResource {
+
+	private AdvertService advertService = new AdvertService();
+	
+	public void constructor(){
+		
+	}
+	
+	public List<Advert> getAdverts(){		
+		return advertService.getAdverts();	
+	}
+	
+	public Advert getAdvert(int id){
+		Advert advert = advertService.getAdvert(id);
+		return advert;
+	}
+
+	public Advert addAdvert(String name, String description, String author){
+		return advertService.addAdvert(name, description, author);
+	}
+	
+	public Advert updateAdvert(int id, String name, String description, String author){
+		return advertService.updateAdvert(id, name, description, author);
+	}
+	
+	public Advert removeAdvert(int id){
+		return advertService.removeAdvert(id);
+	}
+	
+	public CommentResource getCommentResource(){
+		return new CommentResource();
+	}
+}

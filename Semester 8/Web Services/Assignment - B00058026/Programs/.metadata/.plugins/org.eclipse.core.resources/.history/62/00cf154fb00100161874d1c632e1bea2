@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Post</title>
+</head>
+<body>
+<a href="http://localhost:8080/Adverts-REST/"><img src="banner.jpg" alt="Logo"></a>
+<form id="post">
+	<Label for="name">Name</Label>
+	<input type="text" name="name" id="name" placeholder="Enter name">
+	<Label for="description">Description</Label>
+	<input type="text" name="description" id="description" placeholder="Enter description">
+	<button type="submit">login</button>
+</form>
+
+
+<script src="jquery-1.12.3.min.js"></script>
+<script src="post.js"></script>
+</body>
+</html>

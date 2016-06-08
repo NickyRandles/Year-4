@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<insurance xmlns:i="http://www.123.ie/insurance">
+	<i:company>123.ie</i:company>
+	<i:person>
+		<i:name>Nicky Randles</i:name>
+		<i:address>124 The old mill</i:address>
+		<i:dateOfBirth>1995-1-27</i:dateOfBirth>
+		<i:sex>Male</i:sex>
+		<i:phone>087123456</i:phone>
+		<i:nextOfKin>Nicholas Randles</i:nextOfKin>
+	</i:person>
+	<i:holiday>
+		<i:type>Ski Holiday</i:type>
+		<i:date>2016-3-1</i:date>
+		<i:duration>1 week</i:duration>
+	</i:holiday>
+</insurance>

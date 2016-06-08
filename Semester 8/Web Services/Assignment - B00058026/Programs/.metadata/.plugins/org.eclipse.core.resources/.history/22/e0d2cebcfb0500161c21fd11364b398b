@@ -1,0 +1,40 @@
+package com.adverts.resources;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.jws.WebService;
+
+import com.adverts.models.Comment;
+import com.adverts.services.CommentService;
+
+@WebService
+public class CommentResource {
+
+	private CommentService commentService = new CommentService();
+	
+	public void constructor(){
+		
+	}
+	
+	public List<Comment> getAllComments(int advertId){
+		return new ArrayList<Comment>(commentService.getAllComments(advertId));
+	}
+	
+	public Comment getComment(int advertId, int commentId){
+		return commentService.getComment(advertId, commentId);
+	}
+	
+	public Comment addComment(int advertId, Comment comment){
+		return commentService.addComment(advertId, comment);
+	}
+	
+	public Comment updateComment(int advertId, int commentId, Comment comment){
+		comment.setId(commentId);
+		return commentService.updateComment(advertId, comment);
+	}
+	
+	public void removeComment(int advertId, int commentId){
+		commentService.removeComment(advertId, commentId);
+	}
+}

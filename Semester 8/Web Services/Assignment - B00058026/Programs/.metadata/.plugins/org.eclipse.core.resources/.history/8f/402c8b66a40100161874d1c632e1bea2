@@ -1,0 +1,72 @@
+$(document).ready(function(){
+	var searchQuery = $('#searchQuery').val();
+	var path = 'http://localhost:8080/adverts_rest/webapi/adverts';
+	$.ajax({
+		type: 'GET',
+		url: path,
+		dataType: 'json',
+		success: function(data){
+			$.each(data, function(index, item){
+				var id, name;
+				$.each(item, function(key, value){
+					if(key == 'id'){id = value;}
+					if(key == 'name'){name = value;}
+				});
+				$('#content').append('<div id="searchResult">');
+				$('#content').append('<a href="http://localhost:8080/adverts_rest/webapi/adverts/' + id + '"><h2>' + name + '</h2');			
+				$('#content').append('</div>');	
+			});
+		}
+	});
+});
+function searchRequest(){
+	$('#content').html('');
+	var searchQuery = $('#searchQuery').val();
+	var path = 'http://localhost:8080/adverts_rest/webapi/adverts';
+	var match = false;
+	$.ajax({
+		type: 'GET',
+		url: path,
+		dataType: 'json',
+		success: function(data){
+			$.each(data, function(index, item){
+				$.each(item, function(key, value){
+					match = false;
+					if(key == 'name' && value == searchQuery){match = true;}			
+				});
+				if(match == true){
+					$.each(item, function(key, value){
+						$('#content').append('<div id="searchResults">');
+						if(key == 'name'){$('#content').append('<h2>' + value + '</h2');}			
+						$('#content').append('</div>');			
+					});		
+				}
+			});
+		} 
+	});
+	console.log(path);
+}
+
+/*
+function getRequest(){
+	$('#content').html('');
+	
+	var searchQuery = $('#searchQuery').val();
+	var path = 'http://localhost:8080/adverts_rest/webapi/adverts';
+	var username = '';
+	
+	$.ajax({
+		type: 'GET',
+		url: path,
+		dataType: 'json',
+		success: function(data){
+			$.each(data, function(index, item){
+				$.each(item, function(key, value){
+					$('#content').append(key + ': ' + value + '<br>');
+				});
+				$('#content').append('<br><br>');
+			});
+		} 
+	});
+	console.log(path);
+}*/

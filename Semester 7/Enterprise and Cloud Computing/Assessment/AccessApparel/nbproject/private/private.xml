@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/nicky/Desktop/College/College/Year%204/Semester%201/Enterprise%20and%20Cloud%20Computing/Assessment/AccessApparel/src/java/cart/ShoppingCartItem.java</file>
+            <file>file:/C:/Users/nicky/Desktop/College/College/Year%204/Semester%201/Enterprise%20and%20Cloud%20Computing/Assessment/AccessApparel/src/java/session/AbstractFacade.java</file>
+            <file>file:/C:/Users/nicky/Desktop/College/College/Year%204/Semester%201/Enterprise%20and%20Cloud%20Computing/Assessment/AccessApparel/web/WEB-INF/view/cart.jsp</file>
+            <file>file:/C:/Users/nicky/Desktop/College/College/Year%204/Semester%201/Enterprise%20and%20Cloud%20Computing/Assessment/AccessApparel/src/java/filter/SessionTimeoutFilter.java</file>
+            <file>file:/C:/Users/nicky/Desktop/College/College/Year%204/Semester%201/Enterprise%20and%20Cloud%20Computing/Assessment/AccessApparel/src/java/entity/Category.java</file>
+            <file>file:/C:/Users/nicky/Desktop/College/College/Year%204/Semester%201/Enterprise%20and%20Cloud%20Computing/Assessment/AccessApparel/src/java/entity/CustomerOrder.java</file>
+            <file>file:/C:/Users/nicky/Desktop/College/College/Year%204/Semester%201/Enterprise%20and%20Cloud%20Computing/Assessment/AccessApparel/src/java/entity/Product.java</file>
+            <file>file:/C:/Users/nicky/Desktop/College/College/Year%204/Semester%201/Enterprise%20and%20Cloud%20Computing/Assessment/AccessApparel/web/index.jsp</file>
+            <file>file:/C:/Users/nicky/Desktop/College/College/Year%204/Semester%201/Enterprise%20and%20Cloud%20Computing/Assessment/AccessApparel/web/WEB-INF/jspf/header.jspf</file>
+            <file>file:/C:/Users/nicky/Desktop/College/College/Year%204/Semester%201/Enterprise%20and%20Cloud%20Computing/Assessment/AccessApparel/web/WEB-INF/view/confirmation.jsp</file>
+            <file>file:/C:/Users/nicky/Desktop/College/College/Year%204/Semester%201/Enterprise%20and%20Cloud%20Computing/Assessment/AccessApparel/src/java/controller/ControllerServlet.java</file>
+            <file>file:/C:/Users/nicky/Desktop/College/College/Year%204/Semester%201/Enterprise%20and%20Cloud%20Computing/Assessment/AccessApparel/src/java/session/CustomerFacade.java</file>
+            <file>file:/C:/Users/nicky/Desktop/College/College/Year%204/Semester%201/Enterprise%20and%20Cloud%20Computing/Assessment/AccessApparel/src/java/session/OrderedProductFacade.java</file>
+            <file>file:/C:/Users/nicky/Desktop/College/College/Year%204/Semester%201/Enterprise%20and%20Cloud%20Computing/Assessment/AccessApparel/web/WEB-INF/view/category.jsp</file>
+            <file>file:/C:/Users/nicky/Desktop/College/College/Year%204/Semester%201/Enterprise%20and%20Cloud%20Computing/Assessment/AccessApparel/web/WEB-INF/view/checkout.jsp</file>
+            <file>file:/C:/Users/nicky/Desktop/College/College/Year%204/Semester%201/Enterprise%20and%20Cloud%20Computing/Assessment/AccessApparel/setup/sun-resources.xml</file>
+            <file>file:/C:/Users/nicky/Desktop/College/College/Year%204/Semester%201/Enterprise%20and%20Cloud%20Computing/Assessment/AccessApparel/src/java/session/CategoryFacade.java</file>
+            <file>file:/C:/Users/nicky/Desktop/College/College/Year%204/Semester%201/Enterprise%20and%20Cloud%20Computing/Assessment/AccessApparel/web/test/test.jsp</file>
+            <file>file:/C:/Users/nicky/Desktop/College/College/Year%204/Semester%201/Enterprise%20and%20Cloud%20Computing/Assessment/AccessApparel/src/java/session/CustomerOrderFacade.java</file>
+            <file>file:/C:/Users/nicky/Desktop/College/College/Year%204/Semester%201/Enterprise%20and%20Cloud%20Computing/Assessment/AccessApparel/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/nicky/Desktop/College/College/Year%204/Semester%201/Enterprise%20and%20Cloud%20Computing/Assessment/AccessApparel/web/css/style.css</file>
+            <file>file:/C:/Users/nicky/Desktop/College/College/Year%204/Semester%201/Enterprise%20and%20Cloud%20Computing/Assessment/AccessApparel/src/conf/persistence.xml</file>
+            <file>file:/C:/Users/nicky/Desktop/College/College/Year%204/Semester%201/Enterprise%20and%20Cloud%20Computing/Assessment/AccessApparel/web/WEB-INF/jspf/footer.jspf</file>
+            <file>file:/C:/Users/nicky/Desktop/College/College/Year%204/Semester%201/Enterprise%20and%20Cloud%20Computing/Assessment/AccessApparel/src/java/session/ProductFacade.java</file>
+            <file>file:/C:/Users/nicky/Desktop/College/College/Year%204/Semester%201/Enterprise%20and%20Cloud%20Computing/Assessment/AccessApparel/src/java/entity/OrderedProduct.java</file>
+            <file>file:/C:/Users/nicky/Desktop/College/College/Year%204/Semester%201/Enterprise%20and%20Cloud%20Computing/Assessment/AccessApparel/src/java/cart/ShoppingCart.java</file>
+            <file>file:/C:/Users/nicky/Desktop/College/College/Year%204/Semester%201/Enterprise%20and%20Cloud%20Computing/Assessment/AccessApparel/src/java/entity/Customer.java</file>
+            <file>file:/C:/Users/nicky/Desktop/College/College/Year%204/Semester%201/Enterprise%20and%20Cloud%20Computing/Assessment/AccessApparel/src/java/entity/OrderedProductPK.java</file>
+        </group>
+    </open-files>
+</project-private>

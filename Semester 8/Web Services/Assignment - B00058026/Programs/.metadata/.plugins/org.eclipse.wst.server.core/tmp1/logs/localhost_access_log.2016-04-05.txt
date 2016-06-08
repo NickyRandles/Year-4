@@ -1,0 +1,15 @@
+127.0.0.1 - - [05/Apr/2016:06:32:33 +0100] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [05/Apr/2016:06:32:35 +0100] "GET /Adverts-REST/webapi/profiles HTTP/1.1" 200 137
+0:0:0:0:0:0:0:1 - - [05/Apr/2016:06:32:37 +0100] "GET /Adverts-REST/webapi/profiles HTTP/1.1" 200 137
+0:0:0:0:0:0:0:1 - - [05/Apr/2016:06:32:47 +0100] "GET /Adverts-REST/webapi/messages/1 HTTP/1.1" 500 4570
+0:0:0:0:0:0:0:1 - - [05/Apr/2016:06:32:54 +0100] "GET /Adverts-REST/webapi/messages/1 HTTP/1.1" 500 4570
+0:0:0:0:0:0:0:1 - - [05/Apr/2016:06:32:59 +0100] "GET /Adverts-REST/webapi/messages HTTP/1.1" 200 190
+0:0:0:0:0:0:0:1 - - [05/Apr/2016:06:33:05 +0100] "GET /Adverts-REST/webapi/messages/1 HTTP/1.1" 500 4570
+0:0:0:0:0:0:0:1 - - [05/Apr/2016:06:33:20 +0100] "GET /Adverts-REST/webapi/messages HTTP/1.1" 200 190
+127.0.0.1 - - [05/Apr/2016:06:34:56 +0100] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [05/Apr/2016:06:35:00 +0100] "GET /Adverts-REST/webapi/messages HTTP/1.1" 200 190
+0:0:0:0:0:0:0:1 - - [05/Apr/2016:06:35:05 +0100] "GET /Adverts-REST/webapi/messages/1 HTTP/1.1" 200 94
+127.0.0.1 - - [05/Apr/2016:06:35:32 +0100] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [05/Apr/2016:06:35:33 +0100] "GET /Adverts-REST/webapi/messages/1 HTTP/1.1" 200 254
+127.0.0.1 - - [05/Apr/2016:06:39:38 +0100] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [05/Apr/2016:06:39:42 +0100] "GET /Adverts-REST/webapi/messages/1 HTTP/1.1" 200 344

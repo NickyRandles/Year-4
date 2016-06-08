@@ -1,0 +1,47 @@
+\contentsline {chapter}{Abstract}{ii}{chapter*.1}
+\contentsline {chapter}{Acknowledgements}{iii}{chapter*.2}
+\contentsline {chapter}{Table of Contents}{iv}{chapter*.3}
+\contentsline {chapter}{List of Tables}{vii}{chapter*.3}
+\contentsline {chapter}{List of Figures}{viii}{chapter*.4}
+\contentsline {chapter}{Abbreviations}{ix}{chapter*.6}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Guide}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Development and Task goals}{1}{section.1.2}
+\contentsline {section}{\numberline {1.3}Why choose this project?}{1}{section.1.3}
+\contentsline {section}{\numberline {1.4}Problem Statement}{1}{section.1.4}
+\contentsline {section}{\numberline {1.5}Aims and Objectives}{2}{section.1.5}
+\contentsline {section}{\numberline {1.6}Benfits of this Project}{2}{section.1.6}
+\contentsline {chapter}{\numberline {2}Literature Review}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Abstract}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}Introduction}{3}{section.2.2}
+\contentsline {section}{\numberline {2.3}What is an Android application?}{3}{section.2.3}
+\contentsline {section}{\numberline {2.4}Why develop and Android application?}{3}{section.2.4}
+\contentsline {section}{\numberline {2.5}What makes a good Android application?}{4}{section.2.5}
+\contentsline {section}{\numberline {2.6}Android Application for medical management purposes}{4}{section.2.6}
+\contentsline {section}{\numberline {2.7}Securing user sensitive data in an Android application}{4}{section.2.7}
+\contentsline {section}{\numberline {2.8}Conclusion}{4}{section.2.8}
+\contentsline {chapter}{\numberline {3}System Analysis}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}Functional Requirements}{5}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Use Case Diagram}{5}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}Data Requirements}{5}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Entity Relationship Diagram}{5}{subsection.3.2.1}
+\contentsline {chapter}{\numberline {4}System Design}{6}{chapter.4}
+\contentsline {section}{\numberline {4.1}User Interface Design}{6}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}WireFraming}{6}{subsection.4.1.1}
+\contentsline {section}{\numberline {4.2}Functional Design}{6}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Diagrams}{6}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}Data Design}{7}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Diagrams}{7}{subsection.4.3.1}
+\contentsline {chapter}{\numberline {5}Implementation of the system}{8}{chapter.5}
+\contentsline {section}{\numberline {5.1}Implementation steps}{8}{section.5.1}
+\contentsline {chapter}{\numberline {6}Testing and evaluation}{9}{chapter.6}
+\contentsline {section}{\numberline {6.1}Functional correctness}{9}{section.6.1}
+\contentsline {section}{\numberline {6.2}Usability}{9}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Usability requirements}{9}{subsection.6.2.1}
+\contentsline {chapter}{\numberline {7}Conclusion}{10}{chapter.7}
+\contentsline {section}{\numberline {7.1}Suggestions}{10}{section.7.1}
+\contentsline {chapter}{Bibliography}{11}{section.7.1}
+\contentsline {chapter}{Appendices}{12}{chapter*.8}
+\contentsline {section}{\numberline {A}Project Planning}{12}{section.0.1}
+\contentsline {section}{\numberline {B}Project Diary}{13}{section.0.2}
+\contentsline {section}{\numberline {C}Program listings}{14}{section.0.3}
